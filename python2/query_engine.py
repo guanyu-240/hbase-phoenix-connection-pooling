@@ -2,7 +2,6 @@ from Queue import Queue
 from threading import Lock
 import multiprocessing as mp
 from multiprocessing.pool import ThreadPool
-from multiprocessing.dummy import Pool as ThreadPool
 import phoenixdb
 import sys
 
